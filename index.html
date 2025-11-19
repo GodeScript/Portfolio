@@ -400,40 +400,6 @@
             font-size: 0.8rem;
             color: var(--light);
         }
-
-        /* Career Goals Section */
-        .career-grid {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-            gap: 30px;
-            margin-top: 40px;
-        }
-        
-        .career-card {
-            background: rgba(10, 10, 22, 0.7);
-            border-radius: 10px;
-            padding: 30px;
-            text-align: center;
-            border: 1px solid rgba(0, 247, 255, 0.1);
-            transition: transform 0.3s;
-        }
-        
-        .career-card:hover {
-            transform: translateY(-5px);
-        }
-        
-        .career-icon {
-            width: 80px;
-            height: 80px;
-            background: rgba(0, 247, 255, 0.1);
-            border-radius: 50%;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            color: var(--primary);
-            font-size: 2rem;
-            margin: 0 auto 20px;
-        }
         
         /* Contact Section */
         .contact-content {
@@ -621,7 +587,6 @@
                     <li><a href="#about">Über mich</a></li>
                     <li><a href="#skills">Skills</a></li>
                     <li><a href="#projects">Projekte</a></li>
-                    <li><a href="#career">Ausbildungsziele</a></li>
                     <li><a href="#contact">Kontakt</a></li>
                 </ul>
                 <button class="menu-btn">
@@ -976,46 +941,6 @@
         </div>
     </section>
 
-    <!-- Career Goals Section -->
-    <section id="career" style="background: rgba(10, 10, 22, 0.5);">
-        <div class="container">
-            <div class="section-title">
-                <h2>Ausbildungsziele</h2>
-                <p>Bereiche, in denen ich mich ausbilden lassen möchte</p>
-            </div>
-            <div class="career-grid">
-                <div class="career-card">
-                    <div class="career-icon">
-                        <i class="fas fa-crosshairs"></i>
-                    </div>
-                    <h3>Penetration Testing</h3>
-                    <p>Methodisches Vorgehen bei Sicherheitstests, Schwachstellenanalyse und Reporting erlernen.</p>
-                </div>
-                <div class="career-card">
-                    <div class="career-icon">
-                        <i class="fas fa-shield-alt"></i>
-                    </div>
-                    <h3>Security Operations</h3>
-                    <p>Praktische Erfahrung in SOC-Umgebungen, Monitoring und Incident Response sammeln.</p>
-                </div>
-                <div class="career-card">
-                    <div class="career-icon">
-                        <i class="fas fa-bug"></i>
-                    </div>
-                    <h3>Vulnerability Management</h3>
-                    <p>Systematisches Identifizieren und Management von Sicherheitslücken erlernen.</p>
-                </div>
-            </div>
-            
-            <div style="text-align: center; margin-top: 40px;">
-                <div style="background: rgba(0, 247, 255, 0.1); padding: 25px; border-radius: 10px; border: 1px solid rgba(0, 247, 255, 0.3); display: inline-block;">
-                    <h4 style="color: var(--primary); margin-bottom: 10px;">Bereit für die Ausbildung!</h4>
-                    <p style="color: var(--gray); margin: 0;">Ich bringe Leidenschaft, technisches Grundverständnis und große Lernbereitschaft mit.</p>
-                </div>
-            </div>
-        </div>
-    </section>
-    
     <!-- Contact Section -->
     <section id="contact">
         <div class="container">
